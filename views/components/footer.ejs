@@ -1,0 +1,23 @@
+<section class="footer-section" style="position: fixed; bottom: 0; width: 100%;">
+    <footer class="text-center text-white" style="background-color: #253e88;">
+      <div class="container p-4 pb-0">
+        <section class="">
+          <p class="d-flex justify-content-center align-items-center">
+            <% if (!user) {%>
+            <span class="me-3">Register for free</span>
+            
+              <a href="/signup" data-mdb-ripple-init type="button" class="btn btn-outline-light btn-rounded">
+                Sign up!
+              </a>
+          </p>
+          <% } %>
+        </section>
+      </div>
+  
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.4);">
+        © 2024:
+        <a class="text-white" href="/">Nurdaulet Khaimuldin</a>
+      </div>
+    </footer>
+</section>
+
